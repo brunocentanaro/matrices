@@ -19,7 +19,7 @@ class entradas:
             self.crearEntradadas()
 
 
-    def delete(self):
+    def delete(self):                           #funcion para borrar todo
         try:
             for lista in self.entradas:
                 for item in lista:
